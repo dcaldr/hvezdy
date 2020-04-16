@@ -22,14 +22,16 @@ public class Hvezdy {
         // TODO code application logic here
         //kresliHvezdy( 4, 6);
        // kresliHvezdy(7);
-     kresliHvezdy("ja");
+       kresliHvezdy("5");
     }
+    //Verze Hvězda
     public static void kresliHvezdy(int n){
        for (int i=0; i<n;i++){
         System.out.println("*");
     }
     
 }
+    //Verze obdélník
     public static void kresliHvezdy(int sirka, int vyska){
          String  plus ="+";
     String pomlcka = "-";
@@ -46,8 +48,27 @@ public class Hvezdy {
         System.out.println(plus + SirkaPlna + plus);
         
     }
-    
-    public static void kresliHvezdy(String trojúhelník){
+    //Verze trojúhelník
+    public static void kresliHvezdy(String trojuhelnik){
+//        String Mezera ="";
+//        String Svisle  ="|";
+//        String Pomlcka = "-";
+//        char lom = '\U+005C';
+//        
+//        
+//        
+//       try {
+//         int vyska =  Integer.parseInt(trojuhelnik);
+//         for(int i=0; i<vyska; i++){
+//             System.out.println(Svisle+Mezera+ lom);
+//             Mezera = Mezera+ " ";
+//             Pomlcka = Pomlcka +"-";
+//         }
+//           System.out.println(Pomlcka);
+//       }
+//       finally{
         System.out.println("▲");
-    }
+   // }
+//}
+}
 }
